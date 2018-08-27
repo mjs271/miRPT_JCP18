@@ -1,0 +1,7 @@
+#!/bin/bash
+
+make
+# run the program and redirect the error output
+./RPT_exe 2> a.err
+# run the program and redirect all output
+# ./RPT_exe > a.out 2> a.err
